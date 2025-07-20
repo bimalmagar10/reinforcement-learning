@@ -1,0 +1,23 @@
+[project]
+name = "frozenlake"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gymnasium>=1.2.0",
+    "imageio>=2.37.0",
+    "imageio-ffmpeg>=0.6.0",
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "numpy>=2.3.1",
+    "pygame>=2.6.1",
+    "pyglet>=2.1.6",
+    "pyopengl>=3.1.9",
+    "pyvirtualdisplay>=3.0",
+    "setuptools==80.0.0",
+    "tqdm>=4.67.1",
+]
+
+[tool.uv]
+required-environments = ["sys_platform == 'darwin' and platform_machine == 'x86_64'"]
